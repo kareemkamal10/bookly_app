@@ -6,4 +6,10 @@ class HiveHelper {
     var box = Hive.box(keyName);
     box.addAll(books);
   }
+
+  static List<BookEntity> getBooksData(String keyName) {
+    var box = Hive.box(keyName);
+    var data = box.values.toList().cast<BookEntity>();
+    return data;
+  }
 }

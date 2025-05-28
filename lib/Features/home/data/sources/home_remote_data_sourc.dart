@@ -39,6 +39,7 @@ class HomeRemoteDataSourceImpl extends HomeRemoteDataSource {
         books.add(BookModel.fromJson(bookMap));
       }
     }
+    HiveHelper.saveBooksData(kNewestBooks, books);
     return books;
   }
 }
