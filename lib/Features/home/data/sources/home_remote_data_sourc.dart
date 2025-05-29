@@ -1,6 +1,6 @@
 import 'package:bookly/Features/home/data/models/book_model/book_model.dart';
 import 'package:bookly/Features/home/domain/entities/book_entity.dart';
-import 'package:bookly/constants.dart';
+import 'package:bookly/core/consts/constants.dart';
 import 'package:bookly/core/helper/hive_helper.dart';
 import 'package:bookly/core/helper/log_helper.dart';
 import 'package:bookly/core/network/api_service.dart';

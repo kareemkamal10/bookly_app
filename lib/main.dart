@@ -1,5 +1,5 @@
 import 'package:bookly/Features/home/domain/entities/book_entity.dart';
-import 'package:bookly/constants.dart';
+import 'package:bookly/core/consts/constants.dart';
 import 'package:bookly/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
